@@ -1,5 +1,10 @@
 * {
     font-family: 'Oxygen', sans-serif;
+  
+}
+
+body{
+  background-image: linear-gradient(white,whitesmoke)
 }
 #box {
     display: grid;
@@ -97,6 +102,9 @@ background-color: #00E676;
   body {
     background: #FBC02D;
   }
+  .flex-box{
+    flex-direction: column;
+  }
   } 
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -104,6 +112,7 @@ background-color: #00E676;
     body {
       background: #FF80AB;
     }
+    
   } 
   
   /* Medium devices (landscape tablets, 768px and up) */
